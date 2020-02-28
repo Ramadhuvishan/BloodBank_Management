@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="#f6f6f6"
+>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_x="0dp"
+        android:layout_y="246dp"
+        android:background="@drawable/one"
+        app:layout_constraintStart_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="450dp"
+        android:text="SHARE A LITTLE"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="474dp"
+        android:text="CARE A LITTLE"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="506dp"
+        android:text="DONATE BLOOD"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="24dp" />
+
+</AbsoluteLayout>

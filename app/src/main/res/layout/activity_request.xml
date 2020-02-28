@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestActivity"
+    android:padding="12dp"
+    android:background="#FF0000">
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6F6F6"
+        android:padding="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="422dp"
+            android:layout_x="-3dp"
+            android:layout_y="48dp"
+            android:background="#ff0000"
+            android:padding="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="37dp"
+            android:layout_y="77dp"
+            android:text="NAME "
+            android:textColor="#fff"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/req_name"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_x="142dp"
+            android:layout_y="77dp"
+            android:background="@drawable/rectinput" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="13dp"
+            android:layout_y="125dp"
+            android:text="BLOOD TYPE "
+            android:textColor="#fff"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/req_blood"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_x="142dp"
+            android:layout_y="125dp"
+            android:background="@drawable/rectinput" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="28dp"
+            android:layout_y="179dp"
+            android:text="ADDRESS "
+            android:textColor="#fff"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/req_address"
+            android:layout_width="194dp"
+            android:layout_height="153dp"
+            android:layout_x="141dp"
+            android:layout_y="177dp"
+            android:background="@drawable/rectinput" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="33dp"
+            android:layout_y="363dp"
+            android:text="MOBILE "
+            android:textColor="#fff"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/req_mobile"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_x="139dp"
+            android:layout_y="360dp"
+            android:background="@drawable/rectinput" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="40dp"
+            android:layout_y="411dp"
+            android:text="PROOF "
+            android:textColor="#fff"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <EditText
+            android:id="@+id/req_proof"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_x="139dp"
+            android:layout_y="410dp"
+            android:background="@drawable/rectinput" />
+
+        <Button
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_x="193dp"
+            android:layout_y="505dp"
+            android:background="#ff0000"
+            android:text="SUBMIT"
+            android:textSize="18dp"
+            android:textColor="#fff"/>
+    </AbsoluteLayout>
+
+</AbsoluteLayout>
